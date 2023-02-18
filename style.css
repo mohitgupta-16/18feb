@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 1.5rem;
+    color: gainsboro;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+table,
+td {
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 4.5rem;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+td {
+    padding: 10px 0px 10px 15px;
+    text-align: left;
+}
+
+p {
+    margin: 2rem 0px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+button {
+    width: 330px;
+    padding: 0.6rem;
+}
+
+button:hover {
+    transform: scale(1.01);
+}
+
+input {
+    width: 200px;
+    padding: 0.6rem 0.5rem;
+    margin-left: 25px;
+    background-color: black;
+    color: gainsboro;
+    border: 1px solid gainsboro;
+}
+
+input:focus {
+    outline: none;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
